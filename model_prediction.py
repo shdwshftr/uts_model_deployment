@@ -12,7 +12,7 @@ def main():
     st.title('Churn Model Deployment')
 
     credit_score = st.number_input("CreditScore", 0, 1000)
-    geography = st.radio("location", ["France", "Germany", "Spain"])
+    geography = st.radio("Geography", ["France", "Germany", "Spain"])
     gender = st.radio("Gender", ["Male", "Female"])
     age = st.number_input("Age", 0, 100)
     tenure = st.number_input("Tenure", 0, 10)
